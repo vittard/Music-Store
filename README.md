@@ -1,2 +1,2 @@
 # Music-Store
-The e-commer of Music
+The e-commerce of Music
