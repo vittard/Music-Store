@@ -1,0 +1,135 @@
+.welcome_section {
+    text-align: center;
+    width: 95%;
+    margin: 30px auto 30px auto;
+}
+
+.welcome_section h1 {
+	margin-top: 15px;
+    font-weight: bold;
+}
+
+.product_section {
+	display: flow-root;
+    text-align: center;
+    padding: 5px;
+    width: fit-content;
+    margin: auto;
+}
+
+.product_div {
+	width: 312px;
+	text-align: center;
+	display: inline-block;
+	margin: 5px;
+}
+
+.product_div img {
+	max-width: 98%;
+    max-height: 261px;
+}
+
+.product_div h1 {
+	font-size: 35px;
+}
+
+.card_login {
+	margin-top: 30px;
+}
+
+.nav-background {
+	background-color: #d1e3ff!important;
+}
+
+.logo-login {
+	width: 150px;
+	height: 150px;
+	margin-bottom: 20px;
+}
+
+.profile_card {
+	display: -webkit-box;
+}
+
+.admin_table {
+	text-align: center;
+	width: 95%;
+	margin: auto;
+}
+
+.admin_search {
+	margin: auto;
+}
+
+.card {
+    text-align: -webkit-center;
+    text-align: center;
+}
+
+
+.view_image {
+	width: 50%;
+	height: 50%;
+}
+
+.view_image img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.view_price {
+	text-align: center;
+    font-weight: 800;
+    font-size: 80px;
+    color: #007bff;
+    margin: 0;
+}
+
+.view_shipping {
+	font-size: 30px;
+    font-weight: 600;
+}
+
+.view_shipping span {
+	font-weight: 700;
+}
+
+.view_description {
+	width: 70%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+	.view_shipping {
+		font-size: 20px;
+	}
+	
+	.view_price {
+		font-size: 50px;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.view_image {
+	width: 500px;
+	height: 500px;
+}
+
+.view_image img {
+	max-width: 500px;
+	max-height: 500px;
+}
+}
+
